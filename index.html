@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+
+<h1>Sign in page</h1>
+
+<form action="verify.php" method="POST">
+
+<!-- fieldset is like a border -->
+  <fieldset> 
+  
+	  <legend>Personal information:</legend>  
+	  
+	  <label for="fname">first name:</label>
+	  <input type="fname" id="fname" name="fname">
+	  <br></br>
+
+	  <label for="lname">last name:</label>
+	  <input type="lname" id="lname" name="lname" maxlength="14" size="14">
+	  <br><br>
+	  
+	  <input type="image" src="sub.jpg" alt="Submit" width="148">
+	  <br></br>
+	  
+	  <input type="submit" value="Submit">
+	  <br></br>
+
+  </fieldset>
+  
+  <br></br>
+
+</form> 
+
+<form method="POST" action="signup.html">
+    <button type="submit">Signup</button>
+</form>
+
+
+</body>
+</html>
